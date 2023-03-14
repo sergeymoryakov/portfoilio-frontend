@@ -1,3 +1,41 @@
 body {
-    background-color: aqua;
+    background-color: black;
+}
+
+.side {
+    margin: 0 auto;
+    width: 1400px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: blue;
+    border: solid 1px red;
+}
+
+p {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+header {
+    margin: 0;
+    height: 765px;
+    border: solid 1px #FFFFFF;
+}
+
+main {
+    margin: 0;
+    height: 300px;
+    border: solid 1px #FFFFFF;
+}
+
+footer {
+    margin: 0;
+    height: 300px;
+    border: solid 1px #FFFFFF;
 }
