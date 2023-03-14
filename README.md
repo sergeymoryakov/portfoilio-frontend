@@ -1,2 +1,2 @@
-# portfoilio-frontend
+# portfolio-frontend
 Practical portfolio webpage 
