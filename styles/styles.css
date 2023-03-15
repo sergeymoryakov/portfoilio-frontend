@@ -18,6 +18,7 @@ header {
 }
     
 header section {
+    position: relative;
     margin: 0 auto;
     width: 1400px;
     height: 100%;
@@ -30,13 +31,42 @@ header section {
     border: solid 1px yellow;
 }
 
-p {
+.header-menu p {
     font-size: 18px;
     line-height: 23px;
     letter-spacing: -0.03em;
     text-transform: lowercase;
     color: #FFFFFF
 }
+
+p.header-mid {
+    position: absolute;
+    left: 125px;
+    bottom: 325px;
+    max-width: 430px;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    background-color: transparent;
+
+}
+
+h1.header-bottom {
+    position: absolute;
+    left: 118px;
+    bottom: 89px;
+    max-width: 919px;
+    font-size: 80px;
+    line-height: 70px;
+    /* or 88% */
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+    background-color: transparent;
+}
+
+
+
 
 .side {
     margin: 0 auto;
