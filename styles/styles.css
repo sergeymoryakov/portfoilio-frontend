@@ -1,6 +1,12 @@
 body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Manrope', sans-serif;
     background-color: black;
 }
+/*  
+    Fonts   IBM Plex Mono
+            Manrope
+*/
 
 .side {
     margin: 0 auto;
@@ -21,6 +27,17 @@ p {
     text-transform: lowercase;
     color: #FFFFFF;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 header {
     margin: 0;
