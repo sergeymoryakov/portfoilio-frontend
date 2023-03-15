@@ -68,7 +68,6 @@ h1.header-bottom {
 
 main {
     margin: 150px 0;
-    border: solid 1px #FFFFFF;
 }
 
 #projects {
@@ -89,11 +88,11 @@ main {
     height: 550px;
     position: relative;
     border-radius: 30px;
-    background-image: linear-gradient(
+    background: linear-gradient(
         180deg, 
         rgba(0, 0, 0, 0) 0%, 
-        rgba(0, 0, 0, 0.9) 100%), 
-        url('../resources/realhome.jpg');
+        rgba(0, 0, 0, 0.9) 100%);
+        background-image: url('../resources/realhome.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         display: inline-block;
@@ -104,11 +103,11 @@ main {
     height: 550px;
     position: relative;
     border-radius: 30px;
-    background-image: linear-gradient(
+    background: linear-gradient(
         180deg, 
         rgba(0, 0, 0, 0) 0%, 
-        rgba(0, 0, 0, 0.9) 100%), 
-        url('../resources/glass.jpg');
+        rgba(0, 0, 0, 0.9) 100%);
+        background-image: url('../resources/glass.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         display: inline-block;
@@ -119,11 +118,11 @@ main {
     height: 550px;
     position: relative;
     border-radius: 30px;
-    background-image: linear-gradient(
+    background: linear-gradient(
         180deg, 
         rgba(0, 0, 0, 0) 0%, 
-        rgba(0, 0, 0, 0.9) 100%), 
-        url('../resources/fesiyen.jpg');
+        rgba(0, 0, 0, 0.9) 100%); 
+        background-image:url('../resources/fesiyen.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         display: inline-block;
@@ -152,7 +151,7 @@ main {
     letter-spacing: -0.03em;
 }
 
-/* check if section below may be deleted */
+/* check if section below may be deleted - move declarations to Projects, Stack, Services... */
 section {
     margin: 0 auto;
     width: 1400px;
