@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'IBM Plex Mono', monospace;
     font-style: normal;
@@ -71,6 +75,7 @@ main {
 }
 
 #projects {
+    margin-bottom: 150px;
     padding: 0 125px;
 }
 
@@ -128,7 +133,6 @@ main {
         display: inline-block;
 }
 
-
 .project-text {
     position: absolute;
     bottom: 50px;
@@ -149,6 +153,83 @@ main {
     line-height: 39px;
     /* identical to box height */
     letter-spacing: -0.03em;
+}
+
+button {
+    margin-top: 80px;
+    width: 582px;
+    height: 153px;
+    border-radius: 10px;
+    background-color: #1BFF07;
+    border: solid 1px #1BFF07;
+    color: #000000;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+    line-height: 39px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #1BFF07;
+}
+
+#stack {
+    margin-bottom: 150px;
+    padding: 0 230px 0 125px;
+}
+
+#stack h2 {
+    margin-bottom: 48px;
+    font-size: 55px;
+    line-height: 72px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+}
+
+#stack h3 {
+    font-size: 35px;
+    line-height: 46px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+
+#stack p {
+    max-width: 780px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+}
+
+#stack > div {
+    margin-bottom: 60px;
+}
+
+#stack > div:last-child {
+    margin: 0;
+}
+
+
+.stack-name::before {
+    margin-bottom: 12;
+    content: "";
+    display: block;
+    width: 45px;
+    height: 44px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-image: url('../resources/vector-html-css.png');
+    background-size: auto 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1BFF07;
 }
 
 /* check if section below may be deleted - move declarations to Projects, Stack, Services... */
