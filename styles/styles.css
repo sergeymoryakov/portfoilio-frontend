@@ -216,9 +216,8 @@ button:hover {
     margin: 0;
 }
 
-
-.stack-name::before {
-    margin-bottom: 12;
+.stack-html::before {
+    margin-bottom: 12px;
     content: "";
     display: block;
     width: 45px;
@@ -226,7 +225,52 @@ button:hover {
     color: #FFFFFF;
     border-radius: 10px;
     background-image: url('../resources/vector-html-css.png');
-    background-size: auto 50%;
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1BFF07;
+}
+
+.stack-js::before {
+    margin-bottom: 12px;
+    content: "";
+    display: block;
+    width: 45px;
+    height: 44px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-image: url('../resources/vector-js.png');
+    background-size: auto 60%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1BFF07;
+}
+
+.stack-library::before {
+    margin-bottom: 12px;
+    content: "";
+    display: block;
+    width: 45px;
+    height: 44px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-image: url('../resources/vector-library.png');
+    background-size: auto 60%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1BFF07;
+}
+
+.stack-mobile::before {
+    margin-bottom: 12px;
+    content: "";
+    display: block;
+    width: 45px;
+    height: 44px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-image: url('../resources/vector-mobile.png');
+    background-size: auto 60%;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #1BFF07;
