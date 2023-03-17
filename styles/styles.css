@@ -232,13 +232,23 @@ button:hover {
     background-image: url('../resources/vector-mobile.png');
 }
 
+#services {
+    padding: 0 125px;
+}
+
+#services h2 {
+    margin-bottom: 74px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
 /* check if section below may be deleted - move declarations to Projects, Stack, Services... */
 section {
     margin: 0 auto;
     width: 1400px;
     border: dashed 1px red;
 }
-
 footer {
     margin: 0;
     border: solid 1px #FFFFFF;
