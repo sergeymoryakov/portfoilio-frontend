@@ -280,7 +280,8 @@ button:hover {
 }
 
 #services h3 {
-    margin-bottom: 15px;
+    /* PP */
+    margin-bottom: 17px;
     font-size: 55px;
     line-height: 72px;
     /* identical to box height */
