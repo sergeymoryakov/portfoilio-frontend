@@ -382,7 +382,7 @@ main button:hover {
 }
 
 #contacts a:hover {
-    opacity: 50%;
+    color: #1BFF07;
 }
 
 footer {
