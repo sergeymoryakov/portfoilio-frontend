@@ -375,6 +375,7 @@ main button:hover {
     letter-spacing: -0.03em;
     text-decoration: none;
     color: #FFFFFF;
+    transition-duration: 0.4s;
 }
 
 #contacts a:first-child {
