@@ -344,7 +344,7 @@ main button:hover {
 #contacts {
 /* 
     position: relative;
-     */
+*/
     width: 100%;
     /* height: 717px; */
     display: block;
@@ -362,9 +362,11 @@ main button:hover {
     margin: 0 auto;
     width: 1400px;
     padding: 320px 125px 89px 125px;
+/* 
     height: 717px;
     bottom: 89px;
-    left: 125px;
+    left: 125px; 
+*/
 }
 
 #contacts h2 {
@@ -396,6 +398,7 @@ main button:hover {
 
 footer {
     margin: 0;
+    width: 100%;
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 400;
