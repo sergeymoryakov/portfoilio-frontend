@@ -410,7 +410,8 @@ footer {
 }
 
 footer section {
-    padding: 78px 125px 0 125px;
+    /* PP */
+    padding: 76px 125px 0 125px;
 }
 
 footer h3 {
